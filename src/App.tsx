@@ -77,13 +77,13 @@ function App() {
           </button>
         </div>
       </div>
-      <div className="p-7.5 flex max-2xl:flex-col justify-center items-center  bg-[#F5F7FA]">
+      <div className="p-7.5 flex max-xl:flex-col justify-center items-center  bg-[#F5F7FA]">
         <div className="p-12.5 2xl:w-5/9">
           <div className="text-[24px] font-bold">Helping a local <br />
             <span className="text-link"> business reinvent itself</span></div>
           <div className="text-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nesciunt.</div>
         </div>
-        <div className="2xl:w-3/9 flex max-w-125 flex-wrap  ">
+        <div className="2xl:w-3/9 flex max-w-125 flex-wrap items-center ">
           {stat.map((v) => {
             return (
               <div className=" flex w-max lg:w-1/2 items-center flex-wrap p-2 space-x-2.5 ">
