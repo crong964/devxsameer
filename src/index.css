@@ -10,6 +10,8 @@ html {
 @theme {
   --color-text: #717171;
   --color-link: #4CAF4F;
+  --color-silver: #F5F7FA;
+
   --color-primary: #4d4d4d;
   --shadow-com: 2px 2px 5px rgb(231, 229, 229);
   --shadow-hover: -2px -2px 5px rgb(231, 229, 229);
