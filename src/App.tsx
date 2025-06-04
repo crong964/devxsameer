@@ -7,14 +7,14 @@ function App() {
   return (
     <>
       <Navi />
-      <div className="bg-[#F5F7FA] w-full min-h-[80vh] flex max-lg:flex-col items-center justify-around">
+      <div className="bg-siver w-full min-h-[80vh] flex max-lg:flex-col items-center justify-around">
         <div className=" flex flex-col space-y-2 max-lg:p-10">
           <h1 className="text-4xl lg:text-5xl font-bold text-primary">Lessons and Insights</h1>
-          <span className="text-4xl lg:text-5xl text-[#4CAF4F] font-bold">            from 8 years          </span>
+          <span className="text-4xl lg:text-5xl text-link font-bold">            from 8 years          </span>
           <p className="text-text pt-2.5">
             where to grow your business as a photographer: site or social media?
           </p>
-          <button className="flex cursor-pointer w-max bg-[#4CAF4F] duration-500 hover:shadow-hover-buttom text-[14px] text-white px-5.5 py-2.5 rounded-sm  space-x-2">
+          <button className="flex cursor-pointer w-max bg-link duration-500 hover:shadow-hover-buttom text-[14px] text-white px-5.5 py-2.5 rounded-sm  space-x-2">
             Register
           </button>
         </div>
@@ -72,12 +72,12 @@ function App() {
             tempora! Veniam esse incidunt sint sapiente culpa, vitae ea corrupti
             velit tempore aspernatur placeat obcaecati sed!
           </p>
-          <button className="flex mb-5 bg-[#4CAF4F] duration-500 hover:shadow-hover-buttom text-[14px] fon rounded-sm text-white px-5 py-2.5 rounded-sm  space-x-2">
+          <button className="flex mb-5 bg-link duration-500 hover:shadow-hover-buttom text-[14px] fon rounded-sm text-white px-5 py-2.5 rounded-sm  space-x-2">
             Learn More
           </button>
         </div>
       </div>
-      <div className="p-7.5 flex max-xl:flex-col justify-center items-center  bg-[#F5F7FA]">
+      <div className="p-7.5 flex max-xl:flex-col justify-center items-center  bg-siver">
         <div className="p-12.5 2xl:w-5/9">
           <div className="text-[24px] font-bold">Helping a local <br />
             <span className="text-link"> business reinvent itself</span></div>
@@ -110,7 +110,7 @@ function App() {
             tempora! Veniam esse incidunt sint sapiente culpa, vitae ea corrupti
             velit tempore aspernatur placeat obcaecati sed!
           </p>
-          <button className="flex mb-5 bg-[#4CAF4F] duration-500 hover:shadow-hover-buttom text-[14px] fon rounded-sm text-white px-5 py-2.5 rounded-sm  space-x-2">
+          <button className="flex mb-5 bg-link duration-500 hover:shadow-hover-buttom text-[14px] fon rounded-sm text-white px-5 py-2.5 rounded-sm  space-x-2">
             Learn More
           </button>
         </div>
@@ -120,10 +120,10 @@ function App() {
         <h3 className="text-3xl text-center mb-2.5 font-bold text-primary">Caring is the new marketing</h3>
         <div className="flex justify-center  mb-2.5">
           <p className="lg:w-2/3 text-text text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             similique mollitia veritatis quia asperiores nam aut nulla suscipit
-             laudantium saepe nesciunt sunt deserunt aliquid delectus atque, qui,
-              repudiandae recusandae. Explicabo minus rem repellendus sit fuga.
+            laudantium saepe nesciunt sunt deserunt aliquid delectus atque, qui,
+            repudiandae recusandae. Explicabo minus rem repellendus sit fuga.
           </p>
         </div>
         <div className="m-7.5 flex flex-wrap justify-center gap-5">
@@ -132,8 +132,8 @@ function App() {
               <div className="w-65 h-65 relative text-[13px] ">
                 <img src={v.img} alt="" className="object-cover w-full h-auto rounded-2xl" />
                 <div className="absolute top-1/2 left-1/2 translate-y-2/5 -translate-x-1/2 text-[13px]
-                 text-text text-center absolute p-2 rounded-sm bg-[#F5F7FA] shadow-text w-[80%]">
-                  <p className="leading-4">
+                 text-text text-center absolute p-2 rounded-sm bg-silver shadow-text w-[80%]">
+                  <p className="leading-4 ">
                     {v.con}
                   </p>
                   <a href="#" className="flex text-link space-x-3 te justify-center">
@@ -148,9 +148,9 @@ function App() {
         </div>
       </div>
 
-      <div className="p-10 flex flex-col bg-[#F5F7FA] items-center">
+      <div className="p-10 flex flex-col bg-silver items-center">
         <h1 className="text-primary text-center text-[40px] font-bold mb-5">GoodBye! Tata! See Ya!</h1>
-        <button className="flex cursor-pointer w-max duration-500 border-0 hover:shadow-hover-buttom bg-[#4CAF4F] text-[13px] text-white px-5.5 py-2.5 rounded-sm  space-x-2">
+        <button className="flex cursor-pointer w-max duration-500 border-0 hover:shadow-hover-buttom bg-link text-[13px] text-white px-5.5 py-2.5 rounded-sm  space-x-2">
           <p>
             Get a Demo
           </p>
