@@ -157,7 +157,7 @@ function App() {
           <ArrowRightOutlined style={{ fontSize: '13px', }} />
         </button>
       </div>
-      <Foot />
+      <Foot /> 
     </>
   )
 }
