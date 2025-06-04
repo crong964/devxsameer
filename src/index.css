@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+@theme {
+  --color-text: #717171;
+  --color-link: #4CAF4F;
+  --color-primary: #4d4d4d;
+  --shadow-com: 2px 2px 5px rgb(231, 229, 229);
+  --shadow-hover: -2px -2px 5px rgb(231, 229, 229);
+  --shadow-hover-buttom: 0px 0px 20px #4caf4f;
+
+  --shadow-text: 2px 2px 5px rgb(215, 215, 215);
+
+}
