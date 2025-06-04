@@ -60,7 +60,7 @@ function App() {
         </div>
       </div>
       <Road></Road>
-      <div className=" flex max-lg:flex-col items-center justify-around">
+      <div className=" flex max-md:flex-col items-center justify-around">
         <div className="lg:w-2/5 flex justify-center">
           <img src="/first(1).png" alt="first" />
         </div>
@@ -77,13 +77,13 @@ function App() {
           </button>
         </div>
       </div>
-      <div className="p-7.5 flex max-lg:flex-col justify-center items-center  bg-[#F5F7FA]">
-        <div className="p-12.5 lg:w-5/9">
+      <div className="p-7.5 flex max-2xl:flex-col justify-center items-center  bg-[#F5F7FA]">
+        <div className="p-12.5 2xl:w-5/9">
           <div className="text-[24px] font-bold">Helping a local <br />
             <span className="text-link"> business reinvent itself</span></div>
           <div className="text-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nesciunt.</div>
         </div>
-        <div className="lg:w-3/9 flex max-w-125 flex-wrap  ">
+        <div className="2xl:w-3/9 flex max-w-125 flex-wrap  ">
           {stat.map((v) => {
             return (
               <div className=" flex w-max lg:w-1/2 items-center flex-wrap p-2 space-x-2.5 ">
@@ -97,7 +97,7 @@ function App() {
           })}
         </div>
       </div>
-      <div className="lg:m-12.5 flex  max-lg:flex-col justify-center items-center">
+      <div className="lg:m-12.5 flex  max-md:flex-col justify-center items-center">
         <div className="lg:w-2/5 flex justify-center">
           <img src="/samesection/second.png" alt="second" />
         </div>
