@@ -5,7 +5,7 @@ export default function Foot() {
                 <div className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 grid flex flex-col">
                     <div className="col-span-1 flex flex-col space-y-8">
                         <div className="flex  items-center  space-x-3">
-                            <img src="/public/icon.png" alt="icon" />
+                            <img src="/main.png" alt="icon" />
                             <span className="text-[26px] ">
                                 Nexcent
                             </span>
