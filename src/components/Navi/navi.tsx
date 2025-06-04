@@ -28,21 +28,21 @@ export default function Navi() {
                 <div className="hidden md:flex space-x-5 text-text items-center text-[18px] font-mono font-[300]">
                     {
                         ls.map((v) => {
-                            return <span key={v}>{v}</span>
+                            return <a href={`#${v}`} key={v}>{v}</a>
                         })
                     }
-                    <button className="flex duration-500 border-0 hover:shadow-hover-buttom bg-[#4CAF4F] text-[14px] text-white px-5.5 py-2 rounded-sm  space-x-2">
+                    <button className="flex cursor-pointer duration-500 border-0 hover:shadow-hover-buttom bg-[#4CAF4F] text-[14px] text-white px-5.5 py-2 rounded-sm  space-x-2">
                         <p>
                             Register Now
                         </p>
                         <ArrowRightOutlined style={{ fontSize: '13px', }} />
                     </button>
                 </div>
-                <div className="block md:hidden " onClick={() => {
+                <button className="block cursor-pointer md:hidden " onClick={() => {
                     showDrawer()
                 }}>
                     <i className="ri-menu-line p-2 text-white bg-[#4CAF4F]"></i>
-                </div>
+                </button>
             </div>
 
             <Drawer
@@ -53,11 +53,11 @@ export default function Navi() {
                 height={""}
             >
                 <ul className=" flex flex-col w-full h-max">
-                  
-                    <div className="h-[26px] "></div>
+
+                    <div className="h-[30px] "></div>
                     {
                         ls.map((v) => {
-                            return <div className="text-center p-2.5" key={v}>{v}</div>
+                            return <a href={`#${v}`} className="text-black active:text-blue-800  text-center p-2.5" key={v}>{v}</a>
                         })
                     }
                     <div className="flex justify-center p-2.5">

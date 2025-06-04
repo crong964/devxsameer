@@ -11,10 +11,10 @@ function App() {
         <div className=" flex flex-col space-y-2 max-lg:p-10">
           <h1 className="text-4xl lg:text-5xl font-bold text-primary">Lessons and Insights</h1>
           <span className="text-4xl lg:text-5xl text-[#4CAF4F] font-bold">            from 8 years          </span>
-          <div className="text-text pt-2.5">
+          <p className="text-text pt-2.5">
             where to grow your business as a photographer: site or social media?
-          </div>
-          <button className="flex w-max bg-[#4CAF4F] duration-500 hover:shadow-hover-buttom text-[14px] text-white px-5.5 py-2.5 rounded-sm  space-x-2">
+          </p>
+          <button className="flex cursor-pointer w-max bg-[#4CAF4F] duration-500 hover:shadow-hover-buttom text-[14px] text-white px-5.5 py-2.5 rounded-sm  space-x-2">
             Register
           </button>
         </div>
@@ -24,9 +24,9 @@ function App() {
       </div>
       <div className="my-12.5 px-12.5">
         <h2 className="mt-2.5 text-primary text-[34px] text-center font-bold">Our Clients</h2>
-        <div className="text-text text-center">
+        <p className="text-text text-center">
           We have been working with some Fortune 500+ clients
-        </div>
+        </p>
         <div className="mx-auto py-10 flex flex-wrap justify-around justify-center gap-10 lg:gap-20">
           {Array.from({ length: 7 })
             .map((v, i) => {
@@ -36,13 +36,13 @@ function App() {
         <Road></Road>
       </div>
       <div className="my-12.5 px-12.5 flex space-y-3.5 flex-col">
-        <div className="text-4xl font-bold leading-10 text-center text-primary">
+        <h1 className="text-4xl font-bold leading-10 text-center text-primary">
           Manage your entire community <br />
           in as single system
-        </div>
-        <div className="text-lg text-text text-center">
+        </h1>
+        <h6 className="text-lg text-text text-center">
           Who is Nextcent suitable for?
-        </div>
+        </h6>
         <div className="flex flex-wrap items-center justify-center gap-x-12.5 ">
           {com.map((v) => {
             return (
@@ -60,13 +60,13 @@ function App() {
         </div>
       </div>
       <Road></Road>
-      <div className=" flex max-md:flex-col items-center justify-around">
+      <div className="lg:m-12.5 flex max-md:flex-col items-center justify-around">
         <div className="lg:w-2/5 flex justify-center">
           <img src="/first(1).png" alt="first" />
         </div>
         <div className="p-10 flex-1">
-          <div className="text-primary text-[24px] font-bold mb-5">The unseen of spending three years at Pixelgrade</div>
-          <p className="mb-5 text-text text-[16px]">
+          <h3 className="text-primary text-[24px] font-bold mb-5">The unseen of spending three years at Pixelgrade</h3>
+          <p className="mb-5 text-text text-[16px] leading-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint
             enim temporibus ducimus impedit sed dolorem nihil tempore, neque
             tempora! Veniam esse incidunt sint sapiente culpa, vitae ea corrupti
@@ -102,9 +102,9 @@ function App() {
           <img src="/samesection/second.png" alt="second" />
         </div>
         <div className="p-10 flex-1 ">
-          <div className="text-primary text-[24px] font-bold mb-5">
-            How to design your site footer like we did</div>
-          <p className="mb-5 text-text text-[18px]">
+          <h3 className="text-primary text-[24px] font-bold mb-5">
+            How to design your site footer like we did</h3>
+          <p className="mb-5 text-text text-[16px] leading-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint
             enim temporibus ducimus impedit sed dolorem nihil tempore, neque
             tempora! Veniam esse incidunt sint sapiente culpa, vitae ea corrupti
@@ -116,23 +116,26 @@ function App() {
         </div>
       </div>
       <Road></Road>
-      <div className="p-7.5 flex justify-center flex-col">
+      <div className="p-10 flex justify-center flex-col">
         <h3 className="text-3xl text-center mb-2.5 font-bold text-primary">Caring is the new marketing</h3>
         <div className="flex justify-center  mb-2.5">
-          <div className="lg:w-2/3 text-text text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam similique mollitia veritatis quia asperiores nam aut nulla suscipit laudantium saepe nesciunt sunt deserunt aliquid delectus atque, qui, repudiandae recusandae. Explicabo minus rem repellendus sit fuga.
-          </div>
+          <p className="lg:w-2/3 text-text text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam 
+            similique mollitia veritatis quia asperiores nam aut nulla suscipit
+             laudantium saepe nesciunt sunt deserunt aliquid delectus atque, qui,
+              repudiandae recusandae. Explicabo minus rem repellendus sit fuga.
+          </p>
         </div>
         <div className="m-7.5 flex flex-wrap justify-center gap-5">
           {mkt.map((v) => {
             return (
-              <div className="w-65 relative text-[13px] max-lg:pt-10">
+              <div className="w-65 h-65 relative text-[13px] ">
                 <img src={v.img} alt="" className="object-cover w-full h-auto rounded-2xl" />
-                <div className="bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 text-[13px]
-                 text-text text-center absolute p-2 rounded-sm bg-white shadow-text w-[83%]">
-                  <div>
+                <div className="absolute top-1/2 left-1/2 translate-y-2/5 -translate-x-1/2 text-[13px]
+                 text-text text-center absolute p-2 rounded-sm bg-[#F5F7FA] shadow-text w-[80%]">
+                  <p className="leading-4">
                     {v.con}
-                  </div>
+                  </p>
                   <a href="#" className="flex text-link space-x-3 te justify-center">
                     <div>Readmore</div>
                     <ArrowRightOutlined style={{ fontSize: '13px', }} />
@@ -145,9 +148,9 @@ function App() {
         </div>
       </div>
 
-      <div className="p-10 flex flex-col items-center">
-        <div className="text-primary text-center text-4xl font-bold mb-5">GoodBye! Tata! See Ya!</div>
-        <button className="flex w-max duration-500 border-0 hover:shadow-hover-buttom bg-[#4CAF4F] text-[13px] text-white px-5.5 py-2.5 rounded-sm  space-x-2">
+      <div className="p-10 flex flex-col bg-[#F5F7FA] items-center">
+        <h1 className="text-primary text-center text-[40px] font-bold mb-5">GoodBye! Tata! See Ya!</h1>
+        <button className="flex cursor-pointer w-max duration-500 border-0 hover:shadow-hover-buttom bg-[#4CAF4F] text-[13px] text-white px-5.5 py-2.5 rounded-sm  space-x-2">
           <p>
             Get a Demo
           </p>
